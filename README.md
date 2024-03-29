@@ -1,6 +1,6 @@
 # Brilearn
 A machine learning model for predicting mechanical behavior of metals using Brinell force-trace diameter indentation measurements.
-This model is consisted of two submodels - an XGBoost regression model for predicting the material's yield stress, and a collection of residual-minimizing-polynomials for predicting the material's hardening curve.
+This model is consisted of two submodels - an XGBoost regression model for predicting the material's yield stress, and a combination of indentation-strain-to-true-strain conversion function and a collection of residual-minimizing-polynomials for predicting the material's hardening curve.
 The theory behind this model is outlayed in a paper about to be published.
 
 An example for how the model works is attached to this repository.
